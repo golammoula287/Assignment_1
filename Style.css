@@ -1,0 +1,91 @@
+:root{
+    --bg-primary :#1D2B53;
+    --bg-body    :#ffffff;    ;
+    --txt-header :#18648d;
+    --txt-body   :#3c4251;
+    --button-bg  :#FF004D;
+    --button-txt :#1D2B53;
+    --header-txt :#FF004D;
+}
+body{
+    background-color: var(--bg-body);
+}
+.header{
+    background-color: var(--bg-primary);
+}
+p{
+    color: var(--txt-body);
+}
+h1,h2,h3,h4,h5,h6{
+    color: var(--txt-header);
+}
+.btn {
+    background-color: var(--button-bg);
+    color: var(--button-txt);
+}
+a{
+    color: var(--header-txt);
+}
+/*----Logo ---*/
+@import url('https://fonts.googleapis.com/css?family=Bangers|Cinzel:400,700,900|Lato:100,300,400,700,900|Lobster|Lora:400,700|Mansalva|Muli:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Roboto:100,300,400,500,700,900&display=swap');
+
+.logo{
+    color: var(--bg-body);
+    font-family: 'Lora', serif;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+.btn {
+    background-color: var(--bg-body);
+    color:var(--button-txt);
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.btn:hover{
+    background-color: var(--button-bg);
+    color: var(--bg-body);
+}
+
+
+/*-----------Banner ------*/
+.Bn-section{
+    margin-top: 100px;
+    padding-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    height: 400px;
+    background-color: #eff0f9;
+}
+.web-header{
+    padding: 20px;
+    margin: 20px 0 20px 0;
+    border-radius: 10px;
+ }
+ .web-header h1{
+     font-family:'Lora', serif;
+     font-size: 50px;
+     color: rgb(1, 1, 124);
+     border-bottom: 1px solid rgb(1, 1, 124);
+     line-height: 60px;
+     
+ }
+ .img img{
+    height: 380px;
+    width: fit-content;
+ }
+ /*--------footer------*/
+
+ .footer{
+    background-color:#8597ca;
+    margin-top: 200px;
+    margin-bottom: 0;
+
+
+ }
+ .footer p {
+    color: white;
+    padding: 20px;
+ }

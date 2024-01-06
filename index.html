@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+</head>
+<body>
+      <header class="container-fluid  header">
+        
+          
+          <nav class="navbar navbar-expand-lg navbar-dark nav-bg">
+            <div class="container-fluid">
+                <a class="navbar-brand nav-txt logo-holder logo" href="#">VERIFY AGE</a>
+                <form class="d-flex" role="search">
+                    <input id="ageInput" class="form-control me-2" type="number" placeholder="Enter your age" aria-label="Search">
+                    <button class="btn" type="button" onclick="verifyAge()">Submit</button>
+                </form>
+              </div>
+          </nav>
+      </header>
+      <!--------Header End ----------->
+      <!--------Banner Section Start---->
+      <section class="container-fluid ">
+           <div class="container text-center Bn-section">
+            <div class="row align-items-center">
+              <div class="col web-header ">
+                <h1>Online age verification system </h1>
+                <p>
+                    Here you can verify your age weather you are a adult or child . 
+                    If you are a child then you have some restriction with some opportunities . 
+                    If you are adult then you can do many things as you are a citizen of our country . By verifying your age you can find out the opportunities. 
+                </p>
+              </div>
+              <div class="col img">
+                <img src="Image/banner-1.png" class="img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+      </section>
+      <!--------Result-------->
+      <section class="container-fluid">
+        <div   >
+              <h1></h1>
+        </div>
+      </section>
+      <section class="container-fluid footer d-flex justify-content-center">
+           <footer>
+                     <p>©All rights reserve @rakib2001</p>
+           </footer>
+      </section>
+
+      <script src="Bootstrap/js/bootstrap.bundle.js">
+
+      </script>
+      <script>
+        $("input").hide(2000);
+      </script>
+      <script src="AgeVerify.js">
+
+      </script>
+</body>
+</html>
