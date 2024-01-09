@@ -89,3 +89,38 @@ a{
     color: white;
     padding: 20px;
  }
+/*-------card-------*/
+.card{
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-style: none;
+    background-color:#eff0f9 ;
+    margin-top: 100px;
+    width: 500px;
+    
+}
+.card h1{
+    color: rgb(1, 1, 124);
+    font-family:'Lora', serif ;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+ /*----------java script-----------*/
+ .adult,
+ .teenage,
+ .remove_banner {
+     visibility: hidden;
+     opacity: 0;
+     transition: visibility 0s, opacity 0.5s linear;
+ }
+ 
+ .active_adult,
+ .active_teenage {
+     visibility: visible;
+     opacity: 1;
+ }
+ 
